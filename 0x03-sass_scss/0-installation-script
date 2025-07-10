@@ -1,0 +1,9 @@
+# Step 1: Confirm Node.js and npm are installed
+node -v
+npm -v
+
+# Step 2: Install Sass globally (version 1.37.4 is a valid version; 3.7.4 does not exist)
+npm install -g sass@1.37.4
+
+# Step 3: Verify Sass installation
+sass --version
